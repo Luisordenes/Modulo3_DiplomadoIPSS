@@ -13,10 +13,6 @@ app.use("/api/consolas", consolasRouter);
 app.use("/api/usuarios", usuariosRouter);
 app.use("/api/juegos", juegosRouter);
 
-app.get("/", (req, res) => {
-  res.send("Hola mundo!");
-});
-
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {

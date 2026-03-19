@@ -5,7 +5,7 @@
    git clone
 
 2. Navegar al directorio del proyecto:
-    cd Api_consolas
+    cd Modulo3_DiplomadoIPSS
 
 3. Instalar dependencias:
     npm install

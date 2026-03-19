@@ -99,12 +99,10 @@ router.delete(
         res.status(404).json({ mensaje: "Usuario no encontrado" });
       }
     } catch (error) {
-      res
-        .status(500)
-        .json({
-          mensaje: "Error al eliminar el usuario",
-          error: error.message,
-        });
+      res.status(500).json({
+        mensaje: "Error al eliminar el usuario",
+        error: error.message,
+      });
     }
   },
 );
