@@ -1,0 +1,19 @@
+{
+  "name": "api_consolas",
+  "version": "1.0.0",
+  "description": "Proyecto para la evaluacion 1",
+  "license": "ISC",
+  "author": "Luis",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch --env-file=.env server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4"
+  }
+}
